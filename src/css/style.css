@@ -8,3 +8,14 @@
     box-sizing: border-box;
 
 }
+
+/*cores*/
+
+:root{
+
+    --branco: #fff;
+    --cinza: #C0C0C0;
+    --azul: #1678F7;
+    --preto: #00030C;
+
+}
