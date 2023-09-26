@@ -61,11 +61,23 @@ body{
 
 }
 
-.titulo{
+.container_titulo{
 
     font-size: 28px;
     font-weight: 700;
-    word-wrap: break-word
+
+}
+
+.container_imagem{
+
+    margin: 1em 0 2em 0;
+
+}
+
+.container_aviso{
+
+    font-size: 12px;
+    color: var(--cinza);
 
 }
 
@@ -77,6 +89,7 @@ body{
     color: var(--branco);
     display: block;
     text-align: center;
+    margin-bottom: 1em;
 
 }
 
@@ -88,6 +101,18 @@ body{
     color: var(--branco);
     display: block;
     text-align: center;
+
+}
+
+.texto-cima{
+
+    margin: 0 6em;
+
+}
+
+a{
+
+    text-decoration: none;
 
 }
 
