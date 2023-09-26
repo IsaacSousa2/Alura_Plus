@@ -49,8 +49,11 @@ body{
     background-image: url(images/Background.png);
     background-repeat: no-repeat;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 
 }
+
 
 .container{
 
@@ -73,7 +76,18 @@ body{
     padding: 1em;
     color: var(--branco);
     display: block;
-    
+    text-align: center;
+
+}
+
+.container_botao2{
+
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-align: center;
 
 }
 
