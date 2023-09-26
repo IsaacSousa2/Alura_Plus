@@ -105,6 +105,13 @@ body{
 
 }
 
+.container_botao:hover, .container_botao2:hover{
+
+    transition: 0.9s;
+    color: var(--cinza);
+
+}
+
 .texto-cima{
 
     margin: 0 6em;
@@ -142,11 +149,24 @@ a{
 
 }
 
-.descricao_titulo{
+.descricao_texto{
 
     color: var(--cinza);
     font-size: 16px;
     font-weight: 400;
+
+}
+
+.secundario_botao{
+
+    display: inline-block;
+    margin-top: 1em;
+
+}
+
+.container_descricao{
+
+    padding: 2em;
 
 }
 
